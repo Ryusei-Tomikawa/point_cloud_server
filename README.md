@@ -1,0 +1,2 @@
+# point_cloud_server
+点群が保存してあるpcdファイルをsensor_msgs/PointCloudのメッセージ型で出力する
