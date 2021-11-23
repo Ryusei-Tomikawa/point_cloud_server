@@ -8,6 +8,7 @@
 .pcdファイルを保存するノード
 * map_server
 .pcdファイルを読み込み、nav_msgs/GetMapのサービスの方に変換しtrueで返すノード（amclノードに点群情報を渡すことができるノード）
+
 ## Build
   ```shell 
   cd ${catkin_workspace}/src
@@ -28,3 +29,4 @@
     ```shell  
   rosrun point_cloud_map_server map_sever xxx.pcd 
   ```
+なお、pointcloudmapの中に.pcdファイルが入っているため、上記のノード起動の動作確認の際に用いると良い
