@@ -24,7 +24,7 @@
     ```shell  
   rosrun point_cloud_map_server map_saver xxx.pcd 
   ```
-  * server map
+* server map
     ```shell  
   rosrun point_cloud_map_server map_sever xxx.pcd 
   ```
